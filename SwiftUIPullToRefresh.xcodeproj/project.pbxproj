@@ -11,6 +11,7 @@
 		020882532679989D00B7580C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 020882522679989D00B7580C /* ContentView.swift */; };
 		020882552679989E00B7580C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 020882542679989E00B7580C /* Assets.xcassets */; };
 		020882582679989E00B7580C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 020882572679989E00B7580C /* Preview Assets.xcassets */; };
+		02088262267998D200B7580C /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02088261267998D200B7580C /* Home.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		020882522679989D00B7580C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		020882542679989E00B7580C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		020882572679989E00B7580C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		02088261267998D200B7580C /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +53,7 @@
 		0208824F2679989D00B7580C /* SwiftUIPullToRefresh */ = {
 			isa = PBXGroup;
 			children = (
+				0208825E267998AC00B7580C /* View */,
 				020882502679989D00B7580C /* SwiftUIPullToRefreshApp.swift */,
 				020882522679989D00B7580C /* ContentView.swift */,
 				020882542679989E00B7580C /* Assets.xcassets */,
@@ -65,6 +68,14 @@
 				020882572679989E00B7580C /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		0208825E267998AC00B7580C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				02088261267998D200B7580C /* Home.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,6 +149,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				020882532679989D00B7580C /* ContentView.swift in Sources */,
+				02088262267998D200B7580C /* Home.swift in Sources */,
 				020882512679989D00B7580C /* SwiftUIPullToRefreshApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
